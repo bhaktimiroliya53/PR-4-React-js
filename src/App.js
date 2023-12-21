@@ -30,7 +30,7 @@ function App() {
             input.map((value, index) => {
               if(index == 0){
                 return (
-                  <tr key={index}>
+                  <tr key={index}> 
                     <td style={{margin : "5px 10px" , fontSize : "18px"}}>Full Name</td>
                     <td><input type='text' style={{margin : "5px 10px" ,fontSize : "18px"}}/></td>
                     <td style={{margin : "5px 10px" , fontSize : "18px"}}>Email Address</td>
